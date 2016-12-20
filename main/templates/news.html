@@ -1,0 +1,8 @@
+{% block content %}
+    Hello world
+    <ul>
+    {% for article in news %}
+        {{ article.label }}
+    {% endfor %}
+    </ul>
+{% endblock %}
